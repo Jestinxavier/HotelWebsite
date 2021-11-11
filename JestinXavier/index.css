@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Chivo:wght@300&family=Overpass:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Overpass:wght@100&display=swap');
+
+body{
+   background-color:rgb(14,13,11) ; 
+}
+.background-for-nav{
+    background-color:rgb(86,86,84) ;  
+}
+.background-for-about{
+    background-color:rgb(35, 35, 35) ;  
+   
+}
+.chivo{
+    font-family: 'Chivo', sans-serif;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-48{
+    font-size: 48px;
+}
+.font-42{
+    font-size: 42px;
+}
+.font-38{
+    font-size: 38px;
+}
+.font-33{
+    font-size: 33px;
+}
+.font-34{
+    font-size: 34px;
+}
+.font-53{
+    font-size: 53px;
+}
+.font-55{
+    font-size: 55px;
+}
+.font-50{
+    font-size: 50px;
+}
+.font-21{
+    font-size: 21px;
+}
+.font-27{
+    font-size: 27px;
+}
+.font-29{
+    font-size: 29px;
+}
+.center{
+    justify-content: center;
+}
+.right-aline{
+    text-align: right;
+}
+.background-imgtxt{
+    background-image: url("Rectangle\ 93.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.atma{
+    font-family: 'Atma', cursive;
+    font-family: 'Chivo', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+.overpas{
+    font-family: 'Chivo', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+.dotted{
+    border-bottom: 2px dotted rgb(148, 44, 105);
+}
+
+.dot{
+    letter-spacing: 2px;
+}
+  html{
+      scroll-behavior: smooth;
+  }
+  .food center img{
+      width: 100%;
+  }
+  .mylink a:hover {
+   border-bottom: 2px solid yellow;
+  }
+.contactpage{
+    background-color:  rgb(28, 28, 28);
+}
+
+.gim ul li{
+    display: inline;
+    padding: 5px;
+    
+}
+.gim ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.gim ul li a:hover{
+    color: yellow; 
+}
+@media only screen and (max-width: 600px) {
+    .font-24{
+        font-size: 14px;
+    }
+    .font-48{
+        font-size: 28px;
+    }
+    .font-42{
+        font-size: 22px;
+    }
+    .font-38{
+        font-size: 28px;
+    }
+    .font-33{
+        font-size: 23px;
+    }
+    .font-34{
+        font-size: 24px;
+    }
+    .font-53{
+        font-size: 23px;
+    }
+    .font-55{
+        font-size: 25px;
+    }
+    .font-50{
+        font-size: 20px;
+    }
+    .font-21{
+        font-size: 21px;
+    }
+    .font-27{
+        font-size: 27px;
+    }
+    .font-29{
+        font-size: 29px;
+    }
+    .lgran img{
+        display: none;
+    }
+  }
+  @media only screen and (min-width: 998px) {
+      .lgranlogo{
+        display: none;
+      }
+
+  }
